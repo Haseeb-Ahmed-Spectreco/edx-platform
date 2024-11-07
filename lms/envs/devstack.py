@@ -203,7 +203,7 @@ COURSE_DISCOVERY_MEANINGS = {
     'language': LANGUAGE_MAP,
 }
 
-FEATURES['ENABLE_COURSE_DISCOVERY'] = False
+FEATURES['ENABLE_COURSE_DISCOVERY'] = True
 # Setting for overriding default filtering facets for Course discovery
 # COURSE_DISCOVERY_FILTERS = ["org", "language", "modes"]
 FEATURES['COURSES_ARE_BROWSEABLE'] = True
@@ -385,8 +385,8 @@ EDXNOTES_CLIENT_NAME = 'edx_notes_api-backend-service'
 LEARNING_MICROFRONTEND_URL = 'http://localhost:2000'
 ACCOUNT_MICROFRONTEND_URL = 'http://localhost:1997'
 COMMUNICATIONS_MICROFRONTEND_URL = 'http://localhost:1984'
-AUTHN_MICROFRONTEND_URL = 'http://localhost:1999'
-AUTHN_MICROFRONTEND_DOMAIN = 'localhost:1999'
+AUTHN_MICROFRONTEND_URL = 'http://localhost:2000'
+AUTHN_MICROFRONTEND_DOMAIN = 'localhost:2000'
 EXAMS_DASHBOARD_MICROFRONTEND_URL = 'http://localhost:2020'
 
 ################### FRONTEND APPLICATION DISCUSSIONS ###################
@@ -547,7 +547,7 @@ CSRF_TRUSTED_ORIGINS = [
     'http://localhost:2002',  # frontend-app-discussions
     'http://localhost:1991',  # frontend-app-admin-portal
     'http://localhost:8734',  # frontend-app-learner-portal-enterprise
-    'http://localhost:1999',  # frontend-app-authn
+    'http://localhost:2000',  # frontend-app-authn
     'http://localhost:18450',  # frontend-app-support-tools
     'http://localhost:1994',  # frontend-app-gradebook
     'http://localhost:1996',  # frontend-app-learner-dashboard

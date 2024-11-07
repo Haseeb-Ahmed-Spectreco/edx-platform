@@ -579,7 +579,7 @@ def get_logo_url(is_secure=True):
         is_secure (bool): If true, use HTTPS as the protocol.
     """
     brand_logo_url = settings.LOGO_URL
-    default_local_path = 'images/logo.png'
+    default_local_path = 'images/spectreco-logo.png'
     logo_url_from_site_config = configuration_helpers.get_value('logo_image_url')
     university = configuration_helpers.get_value('university')
 
