@@ -146,6 +146,20 @@ XBLOCK_SETTINGS.update({'VideoBlock': {'licensing_enabled': True}})
 ################################ SEARCH INDEX ################################
 FEATURES['ENABLE_COURSEWARE_INDEX'] = True
 FEATURES['ENABLE_LIBRARY_INDEX'] = False
+FEATURES["ENABLE_DASHBOARD_SEARCH"] = True
+FEATURES["ENABLE_COURSEWARE_SEARCH"] = True
+FEATURES["COURSE_DISCOVERY_FILTERS"] = {
+    "org": ["Spectreco", "EDX"],
+    "modes": ["Medium, Long, Small"],
+    "language": ["eng", "urdu"]
+}
+ENABLE_DASHBOARD_SEARCH = True
+ENABLE_COURSEWARE_SEARCH = True
+COURSE_DISCOVERY_FILTERS = {
+    "org": ["Spectreco", "EDX"],
+    "modes": ["Medium, Long, Small"],
+    "language": ["eng", "urdu"]
+}
 SEARCH_ENGINE = "search.elastic.ElasticSearchEngine"
 
 ELASTIC_SEARCH_CONFIG = [

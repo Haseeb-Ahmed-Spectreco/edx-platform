@@ -177,7 +177,34 @@ ELASTIC_SEARCH_CONFIG = [
 ]
 
 ########################## Dashboard Search #######################
-FEATURES['ENABLE_DASHBOARD_SEARCH'] = False
+FEATURES['ENABLE_DASHBOARD_SEARCH'] = True
+
+FEATURES['ENABLE_COURSEWARE_INDEX'] = True
+FEATURES['ENABLE_LIBRARY_INDEX'] = True
+FEATURES["ENABLE_DASHBOARD_SEARCH"] = True
+FEATURES["ENABLE_COURSEWARE_SEARCH"] = True
+FEATURES["COURSE_DISCOVERY_FILTERS"] = {
+    "org": ["Spectreco", "EDX"],
+    "modes": ["Medium, Long, Small"],
+    "language": ["eng", "urdu"]
+}
+ENABLE_DASHBOARD_SEARCH = True
+ENABLE_COURSEWARE_SEARCH = True
+COURSE_DISCOVERY_FILTERS = {
+    "org": ["Spectreco", "EDX"],
+    "modes": ["Medium, Long, Small"],
+    "language": ["eng", "urdu"]
+}
+SEARCH_ENGINE = "search.elastic.ElasticSearchEngine"
+
+ELASTIC_SEARCH_CONFIG = [
+    {
+        'use_ssl': False,
+        'host': 'edx.devstack.elasticsearch710',
+        'port': 9200
+    }
+]
+
 
 
 ########################## Certificates Web/HTML View #######################

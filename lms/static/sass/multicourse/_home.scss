@@ -6,6 +6,7 @@ $button-size: ($baseline*2.75);
 $course-search-input-height: ($button-size);
 
 .home {
+  min-height: 86vh;
   padding: 0;
 
   > .container {
