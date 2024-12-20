@@ -192,15 +192,15 @@
   @include button;
   @include linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
 
-  border: 1px solid theme-color("primary");
+  border: 1px solid #bc1823;
   border-radius: 3px;
-  background-color: theme-color("primary");
+  background-color: #bc1823;
   color: $white;
 
   &:hover,
   &:focus,
   &:active {
-    background-color: $uxpl-blue-hover-active;
+    background-color: #8e121c;
     color: $white;
   }
 
@@ -208,7 +208,7 @@
   &.is-disabled {
     box-shadow: none;
     border: 1px solid $blue-l3 !important;
-    background: $blue-l3 !important;
+    background: #bc18234a !important;
     color: $white !important;
   }
 }

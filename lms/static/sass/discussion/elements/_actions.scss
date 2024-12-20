@@ -169,7 +169,7 @@
     // specific button styles
     &.action-follow {
       .action-label {
-        color: theme-color("primary");
+        color: #bc1823;
       }
 
       &.is-checked,
@@ -177,7 +177,7 @@
       &:focus {
         .action-icon {
           background-color: $forum-color-following;
-          border: 1px solid theme-color("primary");
+          border: 1px solid #bc1823;
           color: $white;
         }
       }
@@ -218,19 +218,19 @@
       &:hover,
       &:focus {
         .action-icon {
-          background-color: theme-color("primary");
-          border: 1px solid theme-color("primary");
+          background-color: #bc1823;
+          border: 1px solid #bc1823;
           color: $white;
         }
       }
 
       &:hover,
       &:focus {
-        border-color: theme-color("primary");
+        border-color: #bc1823;
         background-color: $forum-color-background;
 
         .action-label {
-          color: theme-color("primary");
+          color: #bc1823;
         }
       }
     }

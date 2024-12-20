@@ -46,7 +46,7 @@
 
     // welcome content
     .wrapper-content-header {
-      @include linear-gradient($blue-l1, $blue, $blue-d1);
+      background-color: $primary;
 
       padding-bottom: ($baseline*4);
       padding-top: ($baseline*4);
@@ -63,7 +63,7 @@
 
         float: none;
         margin: 0 0 ($baseline/2) 0;
-        border-bottom: 1px solid $blue-l1;
+        border-bottom: 1px solid white;
         padding: 0;
         color: $white;
       }
@@ -83,7 +83,7 @@
         @extend %t-title4;
 
         margin: 0;
-        color: $blue-l3;
+        color: white;
       }
     }
 
@@ -169,14 +169,14 @@
 
                 display: inline-block;
                 padding: ($baseline/2);
-                background: $blue;
+                background: #bc1823;
                 color: $white;
                 text-align: center;
               }
             }
 
             &:hover {
-              border-color: $blue;
+              border-color: #bc1823;
 
               .action-zoom {
                 opacity: 1;
@@ -251,11 +251,11 @@
                 @extend %ui-fake-link;
 
                 box-shadow: 0 1px ($baseline/10) $shadow-l1;
-                background: $blue-l5;
+                background: #bc18232a;
                 top: -($baseline/5);
 
                 .title {
-                  color: $blue-d2;
+                  color: $black;
                 }
               }
 

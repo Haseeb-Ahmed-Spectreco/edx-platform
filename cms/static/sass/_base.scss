@@ -48,7 +48,7 @@ a {
   @include transition(color $tmg-f2 ease-in-out 0s);
 
   text-decoration: none;
-  color: theme-color("primary");
+  color: #bc1823;
 
   &:hover {
     color: $uxpl-blue-hover-active;
@@ -709,7 +709,7 @@ hr.divider {
     &:hover,
     &:active {
       top: 0;
-      background: theme-color("primary");
+      background: #bc1823;
     }
   }
 

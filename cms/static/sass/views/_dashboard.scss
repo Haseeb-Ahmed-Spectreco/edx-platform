@@ -297,7 +297,7 @@
       margin: 0 10px;
 
       &.active {
-        border-bottom: 4px solid theme-color("primary");
+        border-bottom: 4px solid #bc1823;
       }
 
       &.active,
@@ -308,7 +308,7 @@
       }
 
       a {
-        color: theme-color("primary");
+        color: #bc1823;
         cursor: pointer;
         display: inline-block;
       }

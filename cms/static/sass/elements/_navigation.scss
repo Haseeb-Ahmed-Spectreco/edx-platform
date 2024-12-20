@@ -152,7 +152,7 @@ nav {
 
         &:hover,
         &:active {
-          color: theme-color("primary");
+          color: #bc1823;
         }
       }
     }
@@ -214,7 +214,7 @@ nav {
     .title {
       &:hover,
       &:active {
-        color: theme-color("primary");
+        color: #bc1823;
       }
     }
 
@@ -223,7 +223,7 @@ nav {
 
       &:hover,
       &:active {
-        color: theme-color("primary");
+        color: #bc1823;
       }
     }
 
@@ -536,7 +536,7 @@ $seq-nav-height: 40px;
   &:active,
   &.active {
     padding-top: 2px;
-    background-color: theme-color("primary");
+    background-color: #bc1823;
 
     .icon {
       color: theme-color("inverse");

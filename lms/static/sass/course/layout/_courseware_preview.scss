@@ -5,7 +5,7 @@ $proctoring-banner-text-size: 14px;
 
   margin: 0 auto;
   padding: ($baseline*0.75);
-  background-color: theme-color("primary");
+  background-color: #bc1823;
   box-sizing: border-box;
 
   @media print {
@@ -78,7 +78,7 @@ $proctoring-banner-text-size: 14px;
     font-size: $proctoring-banner-text-size;
     background-color: rgb(229, 234, 236);
     padding: $baseline ($baseline*2);
-    border-left: 4px solid theme-color("primary");
+    border-left: 4px solid #bc1823;
     margin: 0 auto;
     color: theme-color("secondary");
 

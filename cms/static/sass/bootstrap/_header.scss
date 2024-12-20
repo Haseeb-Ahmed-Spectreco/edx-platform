@@ -155,7 +155,7 @@
       white-space: nowrap;
       text-overflow: ellipsis;
       opacity: 1;
-      color: theme-color("primary");
+      color: #bc1823;
     }
 
     .course-org {
@@ -176,7 +176,7 @@
     // entire link
     .course-link {
       display: block;
-      color: theme-color("primary");
+      color: #bc1823;
 
       &:hover {
         color: $link-hover-color;
@@ -324,7 +324,7 @@
 
       .action-signup {
         padding: ($baseline/4) ($baseline/2);
-        text-transform: uppercase;
+        text-transform: lowercase;
       }
 
       .action-signin {
@@ -448,7 +448,7 @@
 
         &:hover,
         &:active {
-          color: theme-color("primary");
+          color: #bc1823;
         }
       }
     }

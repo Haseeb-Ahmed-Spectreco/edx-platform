@@ -40,7 +40,7 @@
 
   .file-download-link a {
     font-size: 15px;
-    color: theme-color("primary");
+    color: #bc1823;
     text-decoration: underline;
     padding: ($baseline/4);
   }
@@ -316,11 +316,11 @@
 
         &:hover,
         &:focus {
-          border-bottom: 3px solid theme-color("primary");
+          border-bottom: 3px solid #bc1823;
         }
 
         &.active-section {
-          border-bottom: 3px solid theme-color("primary");
+          border-bottom: 3px solid #bc1823;
           color: $black;
         }
       }
@@ -1165,7 +1165,7 @@
     box-shadow: none;
     text-shadow: none;
     padding: 0;
-    color: theme-color("primary");
+    color: #bc1823;
 
     &:hover,
     &:focus {
@@ -1341,7 +1341,7 @@
         border-radius: 0;
         border: 0;
         box-shadow: none;
-        color: theme-color("primary");
+        color: #bc1823;
         // These transitions null out previously/globally set transitions
         -webkit-transition: none;
         -moz-transition: none;
@@ -1461,7 +1461,7 @@
     }
 
     .divided-discussion-text {
-      color: theme-color("primary");
+      color: #bc1823;
     }
 
     .discussions-wrapper {
@@ -2373,7 +2373,7 @@ input[name="subject"] {
         h2 {
           font-size: 24px;
           font-weight: 100;
-          color: theme-color("primary");
+          color: #bc1823;
 
           @include text-align(left);
         }
@@ -2854,8 +2854,8 @@ input[name="subject"] {
       &:focus {
         z-index: 2;
         color: #fff;
-        background-color: theme-color("primary");
-        border-color: theme-color("primary");
+        background-color: #bc1823;
+        border-color: #bc1823;
         cursor: default;
       }
     }
@@ -3069,7 +3069,7 @@ input[name="subject"] {
         border: none;
         background: transparent;
         box-shadow: none;
-        color: theme-color("primary");
+        color: #bc1823;
         font-weight: bold;
       }
     }

@@ -159,7 +159,7 @@
 
     .collapsible {
       .collapsible-trigger{
-        color: theme-color("primary");
+        color: #bc1823;
         &:hover{
           cursor: pointer;
         }
@@ -264,7 +264,7 @@
           margin: 0 0 ($baseline/4) 0;
 
           &.is-focused {
-            color: theme-color("primary");
+            color: #bc1823;
           }
         }
 
@@ -449,7 +449,7 @@
             overflow: hidden;
             white-space: nowrap;
             text-overflow: ellipsis;
-            color: theme-color("primary");
+            color: #bc1823;
 
             &:hover {
               color: $uxpl-blue-hover-active;

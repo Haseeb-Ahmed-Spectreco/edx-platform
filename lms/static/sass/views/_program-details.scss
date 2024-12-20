@@ -299,7 +299,7 @@ $btn-color-primary: $primary-dark;
       font-weight: 700;
       margin-bottom: 5px;
       line-height: normal;
-      color: theme-color("primary") !important;
+      color: #bc1823 !important;
     }
 
     .program-heading-message {
@@ -829,16 +829,16 @@ $btn-color-primary: $primary-dark;
         border: 0;
         box-shadow: none;
         text-shadow: none;
-        color: theme-color("primary");
+        color: #bc1823;
         cursor: pointer;
 
         &:hover,
         &:focus {
-          border-bottom: 3px solid theme-color("primary");
+          border-bottom: 3px solid #bc1823;
         }
 
         &.active {
-          border-bottom: 3px solid theme-color("primary");
+          border-bottom: 3px solid #bc1823;
         }
       }
     }

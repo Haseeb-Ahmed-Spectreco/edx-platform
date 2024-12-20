@@ -9,7 +9,7 @@
   position: relative;
   overflow: hidden;
   padding-bottom: $baseline/2;
-  border-bottom: 1px solid theme-color("primary");
+  border-bottom: 1px solid #bc1823;
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
   background: theme-color("inverse");
   line-height: 1.5;
@@ -120,12 +120,12 @@
             &.active,
             &:hover {
               border-bottom-style: solid;
-              border-bottom-color: theme-color("primary");
+              border-bottom-color: #bc1823;
             }
 
             &:hover {
               cursor: pointer;
-              border-bottom-color: theme-color("primary");
+              border-bottom-color: #bc1823;
             }
           }
         }
@@ -156,7 +156,7 @@
 
         // Sign in, Register and Shopping Cart buttons
         .btn {
-          border: 1px solid theme-color("primary");
+          border: 1px solid #bc1823;
           padding: $baseline/4 $baseline;
           border-radius: $baseline/4;
           cursor: pointer;
@@ -165,7 +165,7 @@
 
         a.sign-in-btn,
         .nav-item a.shopping-cart {
-          background-color: theme-color("primary");
+          background-color: #bc1823;
           color: theme-color("inverse");
           border: 1px solid theme-color("inverse");
           font-weight: $font-weight-normal;
@@ -173,18 +173,18 @@
 
           &:hover {
             background-color: theme-color("inverse");
-            color: theme-color("primary");
-            border-color: theme-color("primary");
+            color: #bc1823;
+            border-color: #bc1823;
           }
         }
 
         a.register-btn {
           background: theme-color("inverse");
-          color: theme-color("primary");
+          color: #bc1823;
           font-weight: $font-weight-normal;
 
           &:hover {
-            background-color: theme-color("primary");
+            background-color: #bc1823;
             color: theme-color("inverse");
           }
         }

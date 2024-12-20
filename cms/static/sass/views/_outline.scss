@@ -679,7 +679,7 @@
   // outline: highlight settings
   .highlights-button {
     cursor: pointer;
-    color: theme-color("primary");
+    color: #bc1823;
 
     // remove button styling
     border: none;
@@ -689,7 +689,7 @@
   }
 
   .number-highlights {
-    background: theme-color("primary");
+    background: #bc1823;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
